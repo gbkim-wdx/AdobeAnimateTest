@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"pinrun_atlas_1", frames: [[0,0,1793,800]]}
+		{name:"pigrun_atlas_1", frames: [[0,0,1793,800]]}
 ];
 
 
@@ -28,7 +28,7 @@ lib.ssMetadata = [
 
 
 (lib.GreySkypng = function() {
-	this.initialize(ss["pinrun_atlas_1"]);
+	this.initialize(ss["pigrun_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -3454,7 +3454,7 @@ p.nominalBounds = new cjs.Rectangle(0,6.2,385.8,466.3);
 
 
 // stage content:
-(lib.pinrun = function(mode,startPosition,loop,reversed) {
+(lib.pigrun = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -3489,7 +3489,7 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/pinrun_atlas_1.png", id:"pinrun_atlas_1"}
+		{src:"images/pigrun_atlas_1.png", id:"pigrun_atlas_1"}
 	],
 	preloads: []
 };
